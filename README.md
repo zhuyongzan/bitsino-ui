@@ -1,4 +1,4 @@
-#一、目录结构
+# 一、目录结构
 
     bitsino-ui
     |--examples //示例展示
@@ -13,7 +13,7 @@
     |--README.md
     |--vue.config.js //所有的对项目和webpack的配置
 
-#二、packages 编写组件
+# 二、packages 编写组件
 /packages
 
     packages
@@ -24,9 +24,9 @@
     |--index.js //整合所有组件并导出
 
 
-#三、examples 示例展示
+# 三、examples 示例展示
 
-##引入
+## 引入
 /examples/main.js
 
 ```javascript
@@ -35,7 +35,7 @@ Vue.use(BitsinoUi)
 ```
 `npm run serve`启动项目
 
-#四、打包
+# 四、打包
 vue-cli3 提供了一个[库文件打包命令](https://cli.vuejs.org/zh/guide/build-targets.html#%E5%BA%93)
 
 主要的有四个参数
@@ -52,18 +52,18 @@ vue-cli3 提供了一个[库文件打包命令](https://cli.vuejs.org/zh/guide/b
     2.bitsino-ui.umd.js //一个直接给浏览器或 AMD loader 使用的 UMD 包
     3.dist/myLib.css //若vue.config.js中 设置css.extract = false 则为强制内联。否则样式会被单独打包，在引用时需引入打包后的样式文件
 
-#五、发布到npm
+# 五、发布到npm
 
 - 配置镜像
 
     `npm config set registry http://registry.npmjs.org`
 - 登录`npm`
 
-    `npm login`
+`npm login`
     
     Username:z_praise
-    password:bitsino.com
-    Email:z_praise@163.com
+    password:公司域名
+    Email:z_praise的企业邮箱
     
 - 执行发布命令
 
