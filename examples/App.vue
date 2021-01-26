@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <index>首页</index>
-    <alert>1</alert>
+    首页
+    <alert>111</alert>
   </div>
 </template>
 

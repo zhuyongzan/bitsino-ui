@@ -10,7 +10,7 @@ module.exports = {
         }
     },
     css:{
-        extract:false
+        extract:true
     },
     // 扩展 webpack 配置，使 packages 加入编译
     chainWebpack:(config) => {

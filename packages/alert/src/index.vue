@@ -1,5 +1,5 @@
 <template>
-  <button>组件按钮<slot></slot></button>
+  <button class="bitsino-button">组件按钮<slot></slot></button>
 </template>
 
 <script>

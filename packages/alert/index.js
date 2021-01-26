@@ -1,4 +1,5 @@
 import Alert from './src'
+import './index.scss'
 
 // 为组件提供 install 安装方法，供按需引入
 Alert.install = function (Vue) {
