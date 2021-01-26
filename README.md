@@ -56,15 +56,14 @@ vue-cli3 提供了一个[库文件打包命令](https://cli.vuejs.org/zh/guide/b
 
 - 配置镜像
 
-    `npm config set registry http://registry.npmjs.org`
-- 登录`npm`
+`npm config set registry http://registry.npmjs.org`
+- 登录npm
 
 `npm login`
     
     Username:z_praise
     password:公司域名
-    Email:z_praise的企业邮箱
-    
+    Email:z_praise的企业邮箱    
 - 执行发布命令
 
-    `npm publish`
+`npm publish`
