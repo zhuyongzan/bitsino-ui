@@ -1,6 +1,6 @@
 {
   "name": "bitsino-ui",
-  "version": "0.1.52",
+  "version": "0.2.0",
   "description": "A Component Library for Vue.js.",
   "main": "lib/bitsino-ui.common.js",
   "keywords": [
@@ -30,6 +30,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
+    "vue-router": "^3.5.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -44,7 +45,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-debugger": "off",
+      "no-console": "off"
+  }
   },
   "browserslist": [
     "> 1%",
